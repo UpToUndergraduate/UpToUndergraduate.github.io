@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>专升本考试说明 // UPGRADING EXAM SYLLABI · ESTP</title>
+<title>Up To Undergraduate · 升本之路</title>
 <script src="vendor/marked.min.js"></script>
 <script>
 window.MathJax = {
@@ -144,7 +144,7 @@ a{color:var(--cy);text-decoration:none}
 
 /* ============ 顶栏 HUD ============ */
 .topbar{
-  position:sticky;top:0;z-index:6;height:54px;
+  position:sticky;top:0;z-index:6;height:54px;flex:0 0 54px;
   display:flex;align-items:center;gap:12px;padding:0 30px;
   background:color-mix(in srgb, var(--bg) 86%, transparent);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
@@ -163,7 +163,7 @@ a{color:var(--cy);text-decoration:none}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 
 /* ============ 正文 ============ */
-.content{max-width:900px;width:100%;margin:0 auto;padding:44px 52px 28px;position:relative}
+.content{max-width:900px;width:100%;margin:0 auto;padding:44px 52px 28px;position:relative;flex:1 0 auto}
 .content h1{
   font-size:30px;font-weight:800;letter-spacing:1px;color:var(--txt);
   margin:0 0 28px;padding:0 0 15px;border-bottom:1px solid var(--line);position:relative;
@@ -256,6 +256,9 @@ mjx-container{outline:none;color:var(--txt)}
   filter:drop-shadow(0 0 8px rgba(63,224,255,.35));
 }
 html[data-theme="light"] .brand-logo{filter:none}
+/* 页脚与主内容同宽；内容不足一屏时由 .content 的 flex-grow 把页脚顶到底部，
+   内容超过一屏时页脚自然跟在正文之后 */
+.estp-footer-wrap{width:100%;max-width:900px;margin:0 auto;padding:0 52px;flex:0 0 auto}
 .estp-footer{
   margin:40px 0 0;padding:16px 0 8px;position:relative;text-align:center;
   border-top:1px solid var(--line);
@@ -273,6 +276,7 @@ html[data-theme="light"] .brand-logo{filter:none}
   .scrim{display:block;position:fixed;inset:0;z-index:19;background:rgba(3,9,16,.72);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .22s}
   .scrim.show{opacity:1;pointer-events:auto}
   .content{padding:28px 20px 20px}
+  .estp-footer-wrap{padding:0 20px}
   .main::before{left:0;--wm-size:300px}
   .status{display:none}
   .menu-btn{display:inline-block;background:var(--elev);border:1px solid var(--line2);color:var(--cy);padding:6px 10px;cursor:pointer;font:13px var(--mono);clip-path:var(--clip)}
@@ -287,8 +291,8 @@ html[data-theme="light"] .brand-logo{filter:none}
     <div class="brand">
       <div class="brand-logo" title="Excursion Studio"></div>
       <div class="tag">ESTP <span>// TUTORIAL PAGES</span></div>
-      <h1>专升本考试说明</h1>
-      <div class="sub">UPGRADING EXAM SYLLABI · FOUR SUBJECTS</div>
+      <h1>理工科专升本考试教程</h1>
+      <div class="sub">UPGRADING EXAM COURSES FOR Sci.&Eng.</div>
     </div>
     <div class="search">
       <div class="search-box"><span class="ico">⌕</span><input id="search" type="text" placeholder="SEARCH // 章节 / 关键词"></div>
@@ -395,14 +399,19 @@ function findChapterOf(s){
 
 // ESTP 页脚：动态年份（打开页面时取当前年份，不硬编码）
 function appendFooter(){
-  const content = document.getElementById('content');
+  const main = document.getElementById('main');
+  const prev = main.querySelector('.estp-footer-wrap');
+  if(prev) main.removeChild(prev);
+  const wrap = document.createElement('div');
+  wrap.className = 'estp-footer-wrap';
   const f = document.createElement('footer');
   f.className = 'estp-footer';
   f.innerHTML =
     '<div class="footer-name">Excursion Studio Tutorial Pages</div>' +
     '<div class="footer-meta">© <span id="footer-year"></span> Excursion Studio · All Rights Reserved</div>';
-  content.appendChild(f);
-  const y = document.getElementById('footer-year');
+  wrap.appendChild(f);
+  main.appendChild(wrap);
+  const y = f.querySelector('#footer-year');
   if(y) y.textContent = new Date().getFullYear();
 }
 function closeSidebar(){
@@ -443,12 +452,25 @@ function protectMath(md){
 function escapeHtml(s){
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+// Markdown 里的真正的外部链接（http/https/mailto/tel/协议相对）统一新标签打开；
+// 站内 #sec/ 锚点与相对 .md 文档链接保留，由应用内路由在原地打开。
+function externalizeLinks(html){
+  return html.replace(/<a\s+([^>]*)>/gi, function(tag, attrs){
+    if(/\btarget\s*=/i.test(attrs)) return tag;
+    const m = attrs.match(/\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    if(!m) return tag;
+    const href = m[1] || m[2] || m[3] || '';
+    if(/^#/.test(href)) return tag;
+    if(!/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(href)) return tag;
+    return '<a ' + attrs + ' target="_blank" rel="noopener noreferrer">';
+  });
+}
 function renderMarkdown(src){
   if (typeof marked === 'undefined') {
     return '<div class="noresult">MARKDOWN RENDERER OFFLINE // 显示原文</div><pre>' + escapeHtml(src) + '</pre>';
   }
   const r = protectMath(src);
-  let html = marked.parse(r.md);
+  let html = externalizeLinks(marked.parse(r.md));
   html = html.replace(/\u0000B(\d+)\u0000/g, function(m,i){ return r.display[+i]; });
   html = html.replace(/\u0000I(\d+)\u0000/g, function(m,i){ return r.inline[+i]; });
   return html;
