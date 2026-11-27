@@ -122,7 +122,7 @@ a{color:var(--cy);text-decoration:none}
 .ch-header{
   display:flex;align-items:center;gap:8px;padding:0 18px;height:var(--nav-h1);
   box-sizing:border-box;cursor:pointer;
-  color:var(--txt);user-select:none;font:600 16px var(--mono);letter-spacing:.6px;
+  color:var(--txt);user-select:none;font:700 16px var(--sans);letter-spacing:.2px;
   border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);transition:.18s;
   position:sticky;top:0;z-index:60;
   background:var(--bg);
@@ -409,7 +409,7 @@ function buildNav(){
     hdr.className = 'ch-header';
     hdr.innerHTML = '<span class="ch-no">' + String(ch.num).padStart(2,'0') + '</span>' +
       '<span class="ch-name">' + ch.shortTitle + '</span>' +
-      '<span class="cnt">' + ch.sections.length + '</span><span class="arrow">▾</span>';
+      '<span class="cnt">' + ch.sections.length + '</span><span class="arrow">▸</span>';
     hdr.onclick = function(){
       const sec = cwrap.querySelector('.ch-sections');
       sec.classList.toggle('collapsed');
@@ -417,7 +417,7 @@ function buildNav(){
     };
 
     const secs = document.createElement('div');
-    secs.className = 'ch-sections';
+    secs.className = 'ch-sections collapsed';   // 所有栏默认常闭
     // 用 path 构建多层树，递归渲染；每一级都可折叠并吸附
     const tree = { children:{}, order:[], leaves:[] };
     ch.sections.forEach(function(s){
@@ -441,10 +441,10 @@ function buildNav(){
         const gh = document.createElement('div');
         gh.className = 'grp-header';
         gh.setAttribute('data-level', String(level));
-        gh.innerHTML = '<span class="grp-arrow">▾</span><span class="grp-name">' + name + '</span>' +
+        gh.innerHTML = '<span class="grp-arrow">▸</span><span class="grp-name">' + name + '</span>' +
           '<span class="grp-cnt">' + count + '</span>';
         const gsec = document.createElement('div');
-        gsec.className = 'grp-sections';
+        gsec.className = 'grp-sections collapsed';   // 所有栏默认常闭
         gh.onclick = function(){
           gsec.classList.toggle('collapsed');
           gh.querySelector('.grp-arrow').textContent = gsec.classList.contains('collapsed') ? '▸' : '▾';
