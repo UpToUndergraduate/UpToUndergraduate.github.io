@@ -576,8 +576,11 @@ function renderMarkdown(src){
   }
   const r = protectMath(src);
   let html = externalizeLinks(marked.parse(r.md));
-  html = html.replace(/\u0000B(\d+)\u0000/g, function(m,i){ return r.display[+i]; });
-  html = html.replace(/\u0000I(\d+)\u0000/g, function(m,i){ return r.inline[+i]; });
+  // 公式回填前必须做 HTML 转义：$0<x<1$ 里的 "<x" 若原样写入 innerHTML，
+  // 会被浏览器当成标签开头，公式随即被截断、无法交给 MathJax。
+  // 转义后 DOM 文本仍是原来的 "<"，MathJax 读取 textContent 不受影响。
+  html = html.replace(/\u0000B(\d+)\u0000/g, function(m,i){ return escapeHtml(r.display[+i]); });
+  html = html.replace(/\u0000I(\d+)\u0000/g, function(m,i){ return escapeHtml(r.inline[+i]); });
   return html;
 }
 // 把「例 / 定义 / 定理 / 解 / 证明」开头的段落渲染成机甲数据面板
