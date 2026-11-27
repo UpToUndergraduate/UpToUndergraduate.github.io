@@ -154,6 +154,7 @@ a{color:var(--cy);text-decoration:none}
   user-select:none;cursor:pointer;transition:.16s;
   font:600 15px var(--sans);letter-spacing:.2px;color:var(--cy);
   border-left:2px solid var(--cy);border-bottom:1px solid var(--line2);
+  position:sticky;                    /* 各级分组头均吸附，top 由 data-level 逐级累加 */
   background:var(--bg);               /* 不透明纯色，吸附时完全盖住下方滚动内容 */
 }
 .grp-header:hover{color:var(--txt);background:var(--elev)}
