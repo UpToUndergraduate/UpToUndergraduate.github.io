@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<rect width="240" height="240" fill="#ffffff"/>
+<circle cx="122.00" cy="116.00" r="66.30" fill="#d9d9d9" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="122.00" cy="116.00" r="30.60" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4"/>
+<polyline points="122.00,116.00 168.88,70.96" fill="none" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="122.00,116.00 143.64,95.21" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="162.26" y="79.08" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">R</text>
+<text x="139.54" y="108.91" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">r</text>
+</svg>

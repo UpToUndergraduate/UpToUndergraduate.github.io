@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 260 220">
+<rect width="260" height="220" fill="#ffffff"/>
+<circle cx="132.00" cy="116.59" r="54.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<polyline points="34.80,45.12 229.20,45.12" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="132.00" y="182.76" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="normal" fill="#1a1a1a" text-anchor="middle">相离</text>
+</svg>

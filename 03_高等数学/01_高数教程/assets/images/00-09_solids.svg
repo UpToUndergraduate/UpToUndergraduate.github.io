@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="190" viewBox="0 0 380 190">
+<rect width="380" height="190" fill="#ffffff"/>
+<polygon points="27.00,88.00 83.00,88.00 83.00,128.00 27.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="27.00,88.00 47.00,72.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="83.00,88.00 103.00,72.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="83.00,128.00 103.00,112.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="47.00,72.00 103.00,72.00 83.00,88.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="103.00,72.00 103.00,112.00 83.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="65.00" y="168.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="middle">长方体</text>
+<ellipse cx="145.00" cy="86.00" rx="26.00" ry="9.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<ellipse cx="145.00" cy="128.00" rx="26.00" ry="9.00" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<polyline points="119.00,86.00 119.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="171.00,86.00 171.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.00" y="168.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="middle">圆柱</text>
+<ellipse cx="235.00" cy="128.00" rx="26.00" ry="9.00" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<circle cx="235.00" cy="76.00" r="0" fill="#1a1a1a"/>
+<polyline points="235.00,76.00 209.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235.00,76.00 261.00,128.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="235.00" y="168.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="middle">圆锥</text>
+<ellipse cx="325.00" cy="106.00" rx="30.00" ry="30.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<ellipse cx="325.00" cy="106.00" rx="30.00" ry="10.00" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<ellipse cx="325.00" cy="106.00" rx="10.00" ry="30.00" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="325.00" y="168.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="middle">球</text>
+</svg>

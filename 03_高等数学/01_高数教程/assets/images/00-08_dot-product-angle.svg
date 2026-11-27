@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="200" viewBox="0 0 280 200">
+<rect width="280" height="200" fill="#ffffff"/>
+<polyline points="93.28,124.97 192.72,111.60" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 192.72 111.60 L 184.79 115.86 L 183.95 109.58 Z" fill="#1a1a1a"/>
+<text x="153.00" y="124.29" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">a</text>
+<polyline points="93.28,124.97 129.44,53.66" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 129.44 53.66 L 128.46 62.60 L 122.80 59.74 Z" fill="#1a1a1a"/>
+<text x="99.36" y="89.31" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">b</text>
+<text x="115.88" y="107.14" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">θ</text>
+</svg>

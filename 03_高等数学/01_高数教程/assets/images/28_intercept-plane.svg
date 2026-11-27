@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="260" viewBox="0 0 300 260">
+<rect width="300" height="260" fill="#ffffff"/>
+<polygon points="176.00,219.64 60.00,219.64 118.00,119.30" fill="#d9d9d9" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="118.00,186.00 193.40,229.73" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="118.00,186.00 42.60,229.73" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="118.00,186.00 118.00,99.29" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="199.40" y="229.73" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="start">x</text>
+<text x="36.60" y="229.73" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="end">y</text>
+<text x="124.00" y="99.29" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="start">z</text>
+<text x="110.00" y="202.00" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<circle cx="176.00" cy="219.64" r="3.0" fill="#1a1a1a"/>
+<circle cx="60.00" cy="219.64" r="3.0" fill="#1a1a1a"/>
+<circle cx="118.00" cy="119.30" r="3.0" fill="#1a1a1a"/>
+<text x="184.00" y="231.64" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="italic" fill="#1a1a1a" text-anchor="start">A(a,0,0)</text>
+<text x="52.00" y="231.64" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="italic" fill="#1a1a1a" text-anchor="end">B(0,b,0)</text>
+<text x="126.00" y="113.30" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="italic" fill="#1a1a1a" text-anchor="start">C(0,0,c)</text>
+</svg>

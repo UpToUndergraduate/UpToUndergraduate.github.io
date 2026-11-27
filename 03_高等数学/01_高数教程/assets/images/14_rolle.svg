@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+<rect width="320" height="240" fill="#ffffff"/>
+<polyline points="30.00,161.73 296.00,161.73" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 296.00 161.73 L 287.58 164.90 L 287.58 158.56 Z" fill="#1a1a1a"/>
+<path d="M 30.00 18.00 L 33.17 26.42 L 26.83 26.42 Z" fill="#1a1a1a"/>
+<polyline points="30.00,214.00 30.00,18.00" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="306.00" y="157.73" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">x</text>
+<text x="38.00" y="12.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">y</text>
+<text x="22.00" y="175.73" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<polyline points="83.20,140.17 84.53,138.62 85.86,137.09 87.19,135.59 88.52,134.11 89.85,132.66 91.18,131.24 92.51,129.84 93.84,128.47 95.17,127.12 96.50,125.80 97.83,124.51 99.16,123.24 100.49,122.00 101.82,120.78 103.15,119.59 104.48,118.43 105.81,117.29 107.14,116.18 108.47,115.10 109.80,114.04 111.13,113.01 112.46,112.00 113.79,111.02 115.12,110.07 116.45,109.14 117.78,108.24 119.11,107.36 120.44,106.51 121.77,105.69 123.10,104.89 124.43,104.12 125.76,103.38 127.09,102.66 128.42,101.97 129.75,101.30 131.08,100.66 132.41,100.05 133.74,99.46 135.07,98.90 136.40,98.36 137.73,97.85 139.06,97.37 140.39,96.91 141.72,96.48 143.05,96.07 144.38,95.69 145.71,95.34 147.04,95.01 148.37,94.71 149.70,94.44 151.03,94.19 152.36,93.97 153.69,93.77 155.02,93.60 156.35,93.46 157.68,93.34 159.01,93.25 160.34,93.19 161.67,93.15 163.00,93.13 164.33,93.15 165.66,93.19 166.99,93.25 168.32,93.34 169.65,93.46 170.98,93.60 172.31,93.77 173.64,93.97 174.97,94.19 176.30,94.44 177.63,94.71 178.96,95.01 180.29,95.34 181.62,95.69 182.95,96.07 184.28,96.48 185.61,96.91 186.94,97.37 188.27,97.85 189.60,98.36 190.93,98.90 192.26,99.46 193.59,100.05 194.92,100.66 196.25,101.30 197.58,101.97 198.91,102.66 200.24,103.38 201.57,104.12 202.90,104.89 204.23,105.69 205.56,106.51 206.89,107.36 208.22,108.24 209.55,109.14 210.88,110.07 212.21,111.02 213.54,112.00 214.87,113.01 216.20,114.04 217.53,115.10 218.86,116.18 220.19,117.29 221.52,118.43 222.85,119.59 224.18,120.78 225.51,122.00 226.84,123.24 228.17,124.51 229.50,125.80 230.83,127.12 232.16,128.47 233.49,129.84 234.82,131.24 236.15,132.66 237.48,134.11 238.81,135.59 240.14,137.09 241.47,138.62 242.80,140.17" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="83.20" cy="140.17" r="3.2" fill="#1a1a1a"/>
+<text x="77.20" y="132.17" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">A</text>
+<circle cx="242.80" cy="140.17" r="3.2" fill="#1a1a1a"/>
+<text x="248.80" y="132.17" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">B</text>
+<polyline points="115.12,93.13 210.88,93.13" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="163.00" cy="93.13" r="3.2" fill="#1a1a1a"/>
+<text x="163.00" y="107.13" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">ξ</text>
+<polyline points="83.20,140.17 242.80,140.17" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180">
+<rect width="280" height="180" fill="#ffffff"/>
+<polyline points="87.53,115.14 161.49,115.14" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 161.49 115.14 L 153.07 118.31 L 153.07 111.97 Z" fill="#1a1a1a"/>
+<text x="124.51" y="103.14" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">a</text>
+<polyline points="161.49,115.14 190.25,49.09" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 190.25 49.09 L 189.80 58.07 L 183.98 55.54 Z" fill="#1a1a1a"/>
+<text x="185.87" y="82.11" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">b</text>
+<polyline points="87.53,115.14 190.25,49.09" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 190.25 49.09 L 184.88 56.31 L 181.46 50.97 Z" fill="#1a1a1a"/>
+<text x="138.89" y="70.11" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">a+b</text>
+</svg>

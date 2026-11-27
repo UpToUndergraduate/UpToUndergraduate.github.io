@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="200" viewBox="0 0 280 200">
+<rect width="280" height="200" fill="#ffffff"/>
+<polyline points="91.64,129.43 169.71,129.43" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 169.71 129.43 L 161.29 132.60 L 161.29 126.26 Z" fill="#1a1a1a"/>
+<text x="130.67" y="117.43" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">a</text>
+<polyline points="91.64,129.43 120.40,62.57" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 120.40 62.57 L 119.98 71.56 L 114.16 69.06 Z" fill="#1a1a1a"/>
+<text x="94.02" y="96.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">b</text>
+<polyline points="169.71,129.43 190.25,62.57" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<polyline points="120.40,62.57 190.25,62.57" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<polyline points="91.64,129.43 190.25,62.57" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 190.25 62.57 L 185.06 69.92 L 181.50 64.67 Z" fill="#1a1a1a"/>
+<text x="140.95" y="86.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">a+b</text>
+</svg>

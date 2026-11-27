@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 260 220">
+<rect width="260" height="220" fill="#ffffff"/>
+<circle cx="132.00" cy="116.59" r="54.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<polyline points="34.80,63.65 229.20,63.65" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="132.00,116.59 132.00,63.65" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<circle cx="132.00" cy="116.59" r="3.2" fill="#1a1a1a"/>
+<text x="124.00" y="130.59" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<circle cx="132.00" cy="63.65" r="3.2" fill="#1a1a1a"/>
+<text x="140.00" y="59.65" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">T</text>
+<polyline points="140.64,63.65 140.64,72.12" fill="none" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="140.64,72.12 132.00,72.12" fill="none" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="132.00" y="182.76" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="normal" fill="#1a1a1a" text-anchor="middle">相切</text>
+</svg>

@@ -283,6 +283,9 @@ a{color:var(--cy);text-decoration:none}
 .md-box > :last-child{margin-bottom:0}
 .md-box p,.md-box ul,.md-box ol,.md-box table,.md-box pre{margin:10px 0}
 .md-box mjx-container[display="true"]{margin:12px 0!important}
+.content img{display:block;margin:16px auto;max-width:78%;height:auto}
+.content p:has(> img){text-align:center}
+.content p:has(> em:only-child){text-align:center;color:var(--faint);font-size:12px}
 
 /* 链接：下划线从左展开 */
 .content a{background-image:linear-gradient(var(--cy),var(--cy));background-repeat:no-repeat;background-position:left bottom;background-size:0% 1px;padding-bottom:1px;transition:background-size .25s ease,color .2s ease}
@@ -570,12 +573,33 @@ function externalizeLinks(html){
     return '<a ' + attrs + ' target="_blank" rel="noopener noreferrer">';
   });
 }
-function renderMarkdown(src){
+// Markdown 里的图片按 .md 文件所在目录书写（如 ../assets/images/x.svg），
+// 这样在 GitHub 文件页也能预览；但本站是单页应用、正文渲染在根页面，
+// 浏览器会按页面 URL 而不是 .md 位置解析相对路径，所以这里按当前文档目录
+// 把相对图片路径还原成站点内的路径。
+function resolveImageSrc(src, doc){
+  if(!src || /^(?:[a-z][a-z0-9+.-]*:|\/\/|\/|#)/i.test(src)) return src;
+  const base = (doc && doc.id) ? doc.id.split('/').slice(0,-1).join('/') : '';
+  return normalizeDocPath(base + '/' + src);
+}
+function resolveImages(html, doc){
+  return html.replace(/<img\s+([^>]*)>/gi, function(tag, attrs){
+    const m = attrs.match(/\bsrc\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    if(!m) return tag;
+    const src = m[1] || m[2] || m[3] || '';
+    const fixed = resolveImageSrc(src, doc);
+    if(fixed === src) return tag;
+    const attrs2 = attrs.replace(/(\bsrc\s*=\s*)(?:"[^"]*"|'[^']*'|[^\s>]+)/i,
+      function(_, head){ return head + '"' + fixed + '"'; });
+    return '<img ' + attrs2 + '>';
+  });
+}
+function renderMarkdown(src, doc){
   if (typeof marked === 'undefined') {
     return '<div class="noresult">MARKDOWN RENDERER OFFLINE // 显示原文</div><pre>' + escapeHtml(src) + '</pre>';
   }
   const r = protectMath(src);
-  let html = externalizeLinks(marked.parse(r.md));
+  let html = resolveImages(externalizeLinks(marked.parse(r.md)), doc);
   // 公式回填前必须做 HTML 转义：$0<x<1$ 里的 "<x" 若原样写入 innerHTML，
   // 会被浏览器当成标签开头，公式随即被截断、无法交给 MathJax。
   // 转义后 DOM 文本仍是原来的 "<"，MathJax 读取 textContent 不受影响。
@@ -660,7 +684,7 @@ function openDoc(doc, ch){
     const home = document.querySelector('.home');
     if(home) home.classList.add('active');
   }
-  content.innerHTML = renderMarkdown(doc.content);
+  content.innerHTML = renderMarkdown(doc.content, doc);
   decorateContent();
   appendFooter();
   if (window.MathJax && MathJax.typesetPromise) {

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="280" viewBox="0 0 300 280">
+<rect width="300" height="280" fill="#ffffff"/>
+<polyline points="150.00,170.00 254.79,230.50" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150.00,170.00 45.21,230.50" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150.00,170.00 150.00,49.00" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235.73,219.50 259.55,233.25" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 259.55 233.25 L 250.67 231.78 L 253.84 226.29 Z" fill="#1a1a1a"/>
+<polyline points="64.27,219.50 40.45,233.25" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 40.45 233.25 L 46.16 226.29 L 49.33 231.78 Z" fill="#1a1a1a"/>
+<polyline points="150.00,71.00 150.00,43.50" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 150.00 43.50 L 153.17 51.92 L 146.83 51.92 Z" fill="#1a1a1a"/>
+<text x="269.55" y="237.25" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">x</text>
+<text x="30.45" y="237.25" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">y</text>
+<text x="156.00" y="39.50" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">z</text>
+<text x="140.00" y="184.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<circle cx="169.05" cy="153.50" r="3.2" fill="#1a1a1a"/>
+<text x="177.05" y="147.50" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">P(x, y, z)</text>
+<polyline points="169.05,153.50 169.05,236.00" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<circle cx="169.05" cy="236.00" r="2.4" fill="#1a1a1a"/>
+<text x="169.05" y="250.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">P′</text>
+</svg>

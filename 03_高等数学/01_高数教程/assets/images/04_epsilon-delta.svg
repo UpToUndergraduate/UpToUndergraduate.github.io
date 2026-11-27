@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260">
+<rect width="320" height="260" fill="#ffffff"/>
+<polyline points="30.00,199.16 296.00,199.16" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 296.00 199.16 L 287.58 202.33 L 287.58 195.99 Z" fill="#1a1a1a"/>
+<path d="M 136.40 18.00 L 139.57 26.42 L 133.23 26.42 Z" fill="#1a1a1a"/>
+<polyline points="136.40,234.00 136.40,18.00" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="306.00" y="195.16" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">x</text>
+<text x="144.40" y="12.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">y</text>
+<text x="128.40" y="213.16" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<rect x="35.32" y="66.77" width="255.36" height="69.68" fill="#d9d9d9" stroke="none"/>
+<polyline points="35.32,66.77 290.68,66.77" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<polyline points="35.32,136.45 290.68,136.45" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<text x="294.02" y="62.77" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">A+ε</text>
+<text x="294.02" y="150.45" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">A−ε</text>
+<polyline points="152.36,227.03 152.36,31.94" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<polyline points="226.84,227.03 226.84,31.94" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<text x="152.36" y="243.03" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">x₀−δ</text>
+<text x="226.84" y="243.03" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">x₀+δ</text>
+<polyline points="141.72,123.56 142.65,123.13 143.58,122.71 144.51,122.28 145.44,121.85 146.38,121.43 147.31,121.00 148.24,120.57 149.17,120.15 150.10,119.72 151.03,119.29 151.96,118.87 152.89,118.44 153.82,118.01 154.75,117.59 155.69,117.16 156.62,116.73 157.55,116.31 158.48,115.88 159.41,115.45 160.34,115.03 161.27,114.60 162.20,114.17 163.13,113.75 164.06,113.32 165.00,112.89 165.93,112.47 166.86,112.04 167.79,111.61 168.72,111.18 169.65,110.76 170.58,110.33 171.51,109.90 172.44,109.48 173.37,109.05 174.31,108.62 175.24,108.20 176.17,107.77 177.10,107.34 178.03,106.92 178.96,106.49 179.89,106.06 180.82,105.64 181.75,105.21 182.68,104.78 183.62,104.36 184.55,103.93 185.48,103.50 186.41,103.08 187.34,102.65 188.27,102.22 189.20,101.80 190.13,101.37 191.06,100.94 191.99,100.52 192.93,100.09 193.86,99.66 194.79,99.24 195.72,98.81 196.65,98.38 197.58,97.95 198.51,97.53 199.44,97.10 200.37,96.67 201.30,96.25 202.23,95.82 203.17,95.39 204.10,94.97 205.03,94.54 205.96,94.11 206.89,93.69 207.82,93.26 208.75,92.83 209.68,92.41 210.61,91.98 211.54,91.55 212.48,91.13 213.41,90.70 214.34,90.27 215.27,89.85 216.20,89.42 217.13,88.99 218.06,88.57 218.99,88.14 219.92,87.71 220.86,87.29 221.79,86.86 222.72,86.43 223.65,86.01 224.58,85.58 225.51,85.15 226.44,84.72 227.37,84.30 228.30,83.87 229.23,83.44 230.17,83.02 231.10,82.59 232.03,82.16 232.96,81.74 233.89,81.31 234.82,80.88 235.75,80.46 236.68,80.03 237.61,79.60 238.54,79.18 239.47,78.75 240.41,78.32 241.34,77.90 242.27,77.47 243.20,77.04 244.13,76.62 245.06,76.19 245.99,75.76 246.92,75.34 247.85,74.91 248.79,74.48 249.72,74.06 250.65,73.63 251.58,73.20 252.51,72.78 253.44,72.35" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="189.60" cy="101.61" r="3.4" fill="#fff" stroke="#1a1a1a" stroke-width="1.4"/>
+<circle cx="189.60" cy="199.16" r="3.2" fill="#1a1a1a"/>
+<text x="189.60" y="215.16" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">x₀</text>
+</svg>

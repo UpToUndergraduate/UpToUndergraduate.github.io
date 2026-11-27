@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="240" viewBox="0 0 260 240">
+<rect width="260" height="240" fill="#ffffff"/>
+<ellipse cx="130.00" cy="60.00" rx="70.00" ry="24.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<ellipse cx="130.00" cy="130.00" rx="70.00" ry="24.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<polyline points="60.00,60.00 60.00,130.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200.00,60.00 200.00,130.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.00,60.00 130.00,130.00" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<ellipse cx="130.00" cy="130.00" rx="70.00" ry="24.00" fill="none" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,3"/>
+<text x="206.00" y="82.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="start">母线方向</text>
+</svg>

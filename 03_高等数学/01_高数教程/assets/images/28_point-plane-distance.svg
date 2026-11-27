@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="240" viewBox="0 0 300 240">
+<rect width="300" height="240" fill="#ffffff"/>
+<polygon points="100.00,98.00 280.00,134.00 200.00,202.00 20.00,166.00" fill="#d9d9d9" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="34.00" y="124.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="italic" fill="#1a1a1a" text-anchor="start">平面 π</text>
+<circle cx="232.00" cy="62.00" r="3.0" fill="#1a1a1a"/>
+<circle cx="176.00" cy="150.00" r="3.0" fill="#1a1a1a"/>
+<polyline points="232.00,62.00 176.00,150.00" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="240.00" y="58.00" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="start">P</text>
+<text x="166.00" y="168.00" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="end">Q</text>
+<text x="214.00" y="106.00" font-family="'Times New Roman','SimSun',serif" font-size="13" font-style="italic" fill="#1a1a1a" text-anchor="middle">d</text>
+<polyline points="176.00,150.00 176.00,106.00" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<text x="184.00" y="120.00" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="italic" fill="#8a8a8a" text-anchor="middle">n</text>
+</svg>

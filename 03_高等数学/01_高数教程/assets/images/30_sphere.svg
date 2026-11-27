@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="240" viewBox="0 0 260 240">
+<rect width="260" height="240" fill="#ffffff"/>
+<circle cx="130.00" cy="120.00" r="80.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<ellipse cx="130.00" cy="120.00" rx="80.00" ry="28.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<ellipse cx="130.00" cy="120.00" rx="44.00" ry="80.00" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="130.00" cy="120.00" r="3.2" fill="#1a1a1a"/>
+<text x="120.00" y="134.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">C</text>
+<circle cx="180.00" cy="75.00" r="3.2" fill="#1a1a1a"/>
+<text x="188.00" y="69.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">P</text>
+<polyline points="130.00,120.00 180.00,75.00" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,3"/>
+<text x="165.00" y="97.50" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">R</text>
+</svg>

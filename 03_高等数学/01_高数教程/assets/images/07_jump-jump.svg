@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="160" viewBox="0 0 150 160">
+<rect width="150" height="160" fill="#ffffff"/>
+<text x="78.00" y="140.18" font-family="'Times New Roman','SimSun',serif" font-size="12" font-style="normal" fill="#1a1a1a" text-anchor="middle">跳跃间断</text>
+<polyline points="23.75,52.24 78.00,52.24" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="78.00,98.12 132.25,98.12" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.00" cy="52.24" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="78.00" cy="98.12" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1.2"/>
+</svg>

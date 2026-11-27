@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+<rect width="320" height="240" fill="#ffffff"/>
+<polyline points="30.00,116.00 296.00,116.00" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 296.00 116.00 L 287.58 119.17 L 287.58 112.83 Z" fill="#1a1a1a"/>
+<path d="M 30.00 18.00 L 33.17 26.42 L 26.83 26.42 Z" fill="#1a1a1a"/>
+<polyline points="30.00,214.00 30.00,18.00" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="306.00" y="112.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">x</text>
+<text x="38.00" y="12.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">y</text>
+<text x="22.00" y="130.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">O</text>
+<polyline points="61.92,103.40 63.60,101.76 65.29,100.14 66.97,98.53 68.66,96.95 70.34,95.39 72.03,93.85 73.71,92.34 75.40,90.86 77.08,89.41 78.77,88.00 80.45,86.61 82.14,85.27 83.82,83.95 85.51,82.68 87.19,81.45 88.87,80.26 90.56,79.12 92.24,78.02 93.93,76.96 95.61,75.95 97.30,74.99 98.98,74.09 100.67,73.23 102.35,72.42 104.04,71.67 105.72,70.97 107.41,70.32 109.09,69.73 110.78,69.20 112.46,68.72 114.14,68.30 115.83,67.94 117.51,67.64 119.20,67.39 120.88,67.21 122.57,67.08 124.25,67.01 125.94,67.00 127.62,67.06 129.31,67.17 130.99,67.34 132.68,67.57 134.36,67.85 136.05,68.20 137.73,68.61 139.41,69.07 141.10,69.59 142.78,70.16 144.47,70.79 146.15,71.48 147.84,72.22 149.52,73.01 151.21,73.86 152.89,74.75 154.58,75.70 156.26,76.69 157.95,77.74 159.63,78.83 161.32,79.96 163.00,81.14 164.68,82.36 166.37,83.62 168.05,84.92 169.74,86.26 171.42,87.63 173.11,89.04 174.79,90.48 176.48,91.95 178.16,93.46 179.85,94.98 181.53,96.54 183.22,98.12 184.90,99.72 186.59,101.34 188.27,102.97 189.95,104.63 191.64,106.29 193.32,107.97 195.01,109.66 196.69,111.36 198.38,113.06 200.06,114.76 201.75,116.47 203.43,118.18 205.12,119.88 206.80,121.58 208.49,123.27 210.17,124.95 211.86,126.63 213.54,128.28 215.22,129.93 216.91,131.56 218.59,133.17 220.28,134.75 221.96,136.32 223.65,137.86 225.33,139.37 227.02,140.86 228.70,142.31 230.39,143.74 232.07,145.13 233.76,146.48 235.44,147.80 237.13,149.08 238.81,150.32 240.49,151.52 242.18,152.67 243.86,153.78 245.55,154.84 247.23,155.86 248.92,156.83 250.60,157.75 252.29,158.61 253.97,159.43 255.66,160.20 257.34,160.91 259.03,161.56 260.71,162.16 262.40,162.71 264.08,163.19" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="61.92" cy="103.40" r="3.2" fill="#1a1a1a"/>
+<text x="55.92" y="117.40" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="end">a</text>
+<circle cx="264.08" cy="163.19" r="3.2" fill="#1a1a1a"/>
+<text x="270.08" y="177.19" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">b</text>
+<circle cx="201.30" cy="116.00" r="3.2" fill="#1a1a1a"/>
+<text x="201.30" y="106.00" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="start">ξ</text>
+<text x="157.68" y="50.67" font-family="'Times New Roman','SimSun',serif" font-size="14" font-style="italic" fill="#1a1a1a" text-anchor="middle">f(a)·f(b)&lt;0</text>
+</svg>
