@@ -3,3 +3,8 @@
 福建省普通高校专升本考试理工科四门公共课/专业基础课，**一站式服务**。
 
 此外，针对英语词汇，我们还提供了一个单独的站点：[Vocabulary · 英语词汇 3000 背词工具](https://uptoundergraduate.github.io/Vocabulary/)。
+
+信息技术基础所要求的两个软件，可以自行下载安装。
+
+- [WPS Office](https://www.wps.cn)。
+- [Python 3.12](https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=zh-CN&gl=CN)
